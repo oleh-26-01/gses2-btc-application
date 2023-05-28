@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#btc-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#btc-section button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#btc-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#subscription-form {
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#subscription-form input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#update-price-button {
+    background-color: #007bff;
+}
+
+#update-price-button:hover {
+    background-color: #0069d9;
+}
+
+#subscribe-button {
+    background-color: #4CAF50;
+}
+
+#subscribe-button:hover {
+    background-color: #46a049;
+}
+
+#sendEmails-button {
+    background-color: #f1c40f;
+}
+
+#sendEmails-button:hover {
+    background-color: #f39c12;
+}
+
+/* Green Background Animation */
+@keyframes greenBorder {
+    0% { border-color: #ccc; }
+    50% { border-color: #00ff00; }
+    100% { border-color: #ccc; }
+}
+
+/* Red Background Animation*/
+@keyframes redBorder {
+    0% { border-color: #ccc; }
+    50% { border-color: #ff0000; }
+    100% { border-color: #ccc; }
+}
+
+.green-animation {
+    animation: greenBorder 1s;
+}
+
+.red-animation {
+    animation: redBorder 1s;
+}

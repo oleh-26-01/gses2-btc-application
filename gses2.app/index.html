@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GSES2 BTC application</title>
+    <link rel="stylesheet" href="../gses2.app/style.css">
+</head>
+<body>
+    <div id="btc-section">
+        <h1>BTC Price</h1>
+        <div id="btc-price">₴0.00</div>
+        <button id="update-price-button" onclick="updateBTCPrice()">Update Price</button>
+        <button id="sendEmails-button" onclick="sendEmails()">Send Emails</button>
+    </div>
+
+    <form onsubmit="return false" id="subscription-form">
+        <h2><label for="email-input">Subscribe for Email Notifications</label></h2>
+        <input type="email" name="email" id="email-input" placeholder="Enter your email address" required>
+        <button id="subscribe-button" onclick="subscribe()">Subscribe</button>
+    </form>
+<script src="../gses2.app/script.js"></script>
+</body>
+</html>
