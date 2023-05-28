@@ -2,6 +2,12 @@
 
 This repository contains the source code and Dockerfile for the BTC Application, a Go web application built with the Iris framework. If you want to run the project, follow the instructions below.
 
+## Screenshot
+
+![BTC Web Application Screenshot](readme-image/image.png)
+
+This screenshot provides a glimpse of the BTC Web Application interface and features.
+
 ## Getting Started
 
 To run the BTC Application, you can either build and run the Docker image or execute the project directly using Go.
